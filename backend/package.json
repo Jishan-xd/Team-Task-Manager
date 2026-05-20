@@ -1,0 +1,13 @@
+{
+  "name": "team-task-manager-vercel-frontend-shim",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix ../frontend ci && npm --prefix ../frontend run build",
+    "vercel-build": "npm run build",
+    "start": "npm --prefix ../frontend run start"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
